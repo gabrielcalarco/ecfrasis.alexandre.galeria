@@ -10,20 +10,20 @@
 # site domain, full URL to the production location of your collection
 url: https://gabrielcalarco.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /pruebacbcsv
+baseurl: /ecfrasis.alexandre.galeria
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
+source-code: https://github.com/gabrielcalarco/ecfrasis.alexandre.galeria
 
 ##########
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Colección Foulché-Delbosc
+title: La écfrasis en el <i>Libro de Alexandre</i> 
 # tagline, a short phrase that will appear throughout the site in the top banner
 # tagline: Sitio de prueba
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "Sitio en construcción para el seminario <i>La Colección Foulché-Delbosc, de la Historia del Libro y la Edición a las Humanidades Digitales</i>."
+description: "Colección de arte medieval para acompañar el estudio de la écfrasis en el <i>Libro de Alexandre</i>."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: colecciones; prueba; Foulché-Delbosc
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
@@ -34,7 +34,7 @@ author: Gabriel Calarco
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: prueba_cb
+metadata: ecfrasis_alexandre_galeria
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
