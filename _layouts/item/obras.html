@@ -6,8 +6,7 @@ gallery: true
 ---
 {% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
 
-<div class="row">
-    <div class="col-md-6">
+    <div>
 
         <br/>
     {% for child in children %}
@@ -19,7 +18,7 @@ gallery: true
     </div>
     {% endfor %}
 </div>
-<div class="col-md-6">
+<div>
 
         {% include item/child/compound-item-download-buttons.html %}
         {% if page.object_obra %}
@@ -34,5 +33,3 @@ gallery: true
         {% endif %} 
 
     </div>
-
-</div>
